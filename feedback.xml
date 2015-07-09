@@ -1,0 +1,32 @@
+<Project name="project1">
+<Panel id="Panel1" x="1673.0" y="2044.0" >
+    <Logic id="Logic1" type="In" >
+        <Output id="Output1" connectedTo="Input1" />
+    </Logic>
+</Panel>
+<Panel id="Panel2" x="1787.0" y="2045.0" >
+    <Logic id="Logic2" type="Or" >
+        <Input id="Input1" state="true" />
+        <Input id="Input2" state="false" />
+        <Output id="Output2" connectedTo="Input3" />
+    </Logic>
+</Panel>
+<Panel id="Panel3" x="1895.0" y="2120.0" >
+    <Logic id="Logic3" type="Not" >
+        <Input id="Input3" state="true" />
+        <Output id="Output3" connectedTo="Input5" />
+    </Logic>
+</Panel>
+<Panel id="Panel5" x="1986.0" y="2119.0" >
+    <Logic id="Logic5" type="Split" >
+        <Input id="Input5" state="false" />
+        <Output id="Output5" connectedTo="Input2" />
+        <Output id="Output6" connectedTo="Input6" />
+    </Logic>
+</Panel>
+<Panel id="Panel6" x="2098.0" y="2119.0" >
+    <Logic id="Logic6" type="Out" >
+        <Input id="Input6" state="false" />
+    </Logic>
+</Panel>
+</Project>

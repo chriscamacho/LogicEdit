@@ -1,0 +1,24 @@
+<Project name="project1">
+<Panel id="Panel1" x="1713.0" y="2073.0" >
+    <Logic id="Logic1" type="In" >
+        <Output id="Output1" connectedTo="Input1" />
+    </Logic>
+</Panel>
+<Panel id="Panel2" x="1874.0" y="2075.0" >
+    <Logic id="Logic2" type="Split" >
+        <Input id="Input1" state="false" />
+        <Output id="Output2" connectedTo="Input2" />
+        <Output id="Output3" connectedTo="Input3" />
+    </Logic>
+</Panel>
+<Panel id="Panel3" x="2041.0" y="2069.0" >
+    <Logic id="Logic3" type="Out" >
+        <Input id="Input2" state="false" />
+    </Logic>
+</Panel>
+<Panel id="Panel4" x="2043.0" y="2187.0" >
+    <Logic id="Logic4" type="Out" >
+        <Input id="Input3" state="false" />
+    </Logic>
+</Panel>
+</Project>

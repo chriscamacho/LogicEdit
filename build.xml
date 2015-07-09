@@ -1,0 +1,59 @@
+<project name="LogicEdit" default="run" basedir=".">
+    <description>
+        ant build/run file
+    </description>
+
+    <!-- the run time classpath is also used to compile -->
+    <path id="classpath">
+        <pathelement location="bin" />
+        <pathelement location="." />
+        <!--<fileset dir="libs" includes="**/*.jar"/>-->
+    </path>
+    
+    <target
+        name="clean"
+        description="removes all classes" >
+        <delete>
+            <fileset dir="bin" includes="**/*.class"/>
+        </delete>
+    </target>
+
+    <target 
+        name="compile"
+        description="compile the source " >
+        <mkdir dir="bin"/>
+        <javac 
+            destdir="bin"
+            includeantruntime="false"
+			debug="on"
+			debuglevel="lines,vars,source"
+        >
+			<src path="src" />
+			
+            <compilerarg value="-Xlint:all" />
+            <compilerarg value="-Werror" />
+            <!-- maxerrs param must be seperate or space is picked up as a param -->
+            <compilerarg value="-Xmaxerrs" />
+            <compilerarg value="1" />
+            <compilerarg value="-Xdiags:verbose" />
+            <classpath refid="classpath"/>
+        </javac>
+    </target>
+    
+    <target
+        name="run"
+        depends="compile"
+        description="runs the project compiling if needed" >
+        <echo>${basedir}</echo>
+        <java 
+            fork="true"
+            dir="${basedir}/"
+            classname="uk.co.bedroomcoders.chrisc.LogicEdit.Main"
+            classpathref="classpath"
+        />
+    </target>
+    
+
+    
+
+</project>

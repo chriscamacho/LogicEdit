@@ -1,0 +1,284 @@
+<Project name="project1">
+<Panel id="Panel1" x="1761.6785714285713" y="1923.875" >
+    <Logic id="Logic1" type="In" >
+        <Output id="Output1" connectedTo="Input6" />
+    </Logic>
+</Panel>
+<Panel id="Panel2" x="1674.908824224287" y="1919.623109938573" >
+    <Logic id="Logic2" type="In" >
+        <Output id="Output2" connectedTo="Input1" />
+    </Logic>
+</Panel>
+<Panel id="Panel3" x="1766.0" y="1856.0" >
+    <Logic id="Logic3" type="Split" >
+        <Input id="Input1" state="false" />
+        <Output id="Output3" connectedTo="Input2" />
+        <Output id="Output4" connectedTo="Input7" />
+    </Logic>
+</Panel>
+<Panel id="Panel4" x="1930.0" y="1859.0" >
+    <Logic id="Logic4" type="Xor" >
+        <Input id="Input2" state="true" />
+        <Input id="Input3" state="false" />
+        <Output id="Output5" connectedTo="Input4" />
+    </Logic>
+</Panel>
+<Panel id="Panel5" x="2246.0235273271383" y="1919.730390612695" >
+    <Logic id="Logic5" type="Out" >
+        <Input id="Input4" state="false" />
+    </Logic>
+</Panel>
+<Panel id="Panel7" x="1844.0" y="1924.0" >
+    <Logic id="Logic7" type="Split" >
+        <Input id="Input6" state="false" />
+        <Output id="Output6" connectedTo="Input3" />
+        <Output id="Output7" connectedTo="Input8" />
+    </Logic>
+</Panel>
+<Panel id="Panel8" x="1976.0" y="1911.0" >
+    <Logic id="Logic8" type="And" >
+        <Input id="Input7" state="true" />
+        <Input id="Input8" state="false" />
+        <Output id="Output8" connectedTo="Input16" />
+    </Logic>
+</Panel>
+<Panel id="Panel9" x="1678.839285714286" y="2048.357142857143" >
+    <Logic id="Logic9" type="In" >
+        <Output id="Output9" connectedTo="Input9" />
+    </Logic>
+</Panel>
+<Panel id="Panel10" x="1763.0" y="1985.0" >
+    <Logic id="Logic10" type="Split" >
+        <Input id="Input9" state="false" />
+        <Output id="Output10" connectedTo="Input10" />
+        <Output id="Output11" connectedTo="Input20" />
+    </Logic>
+</Panel>
+<Panel id="Panel11" x="1929.0" y="1985.0" >
+    <Logic id="Logic11" type="Xor" >
+        <Input id="Input10" state="false" />
+        <Input id="Input11" state="true" />
+        <Output id="Output12" connectedTo="Input13" />
+    </Logic>
+</Panel>
+<Panel id="Panel12" x="1764.0140770200035" y="2053.706725468578" >
+    <Logic id="Logic12" type="In" >
+        <Output id="Output13" connectedTo="Input12" />
+    </Logic>
+</Panel>
+<Panel id="Panel13" x="1845.0" y="2057.0" >
+    <Logic id="Logic13" type="Split" >
+        <Input id="Input12" state="false" />
+        <Output id="Output14" connectedTo="Input11" />
+        <Output id="Output15" connectedTo="Input21" />
+    </Logic>
+</Panel>
+<Panel id="Panel14" x="2020.0" y="1987.0" >
+    <Logic id="Logic14" type="Split" >
+        <Input id="Input13" state="false" />
+        <Output id="Output16" connectedTo="Input14" />
+        <Output id="Output17" connectedTo="Input19" />
+    </Logic>
+</Panel>
+<Panel id="Panel15" x="2151.0" y="1987.5" >
+    <Logic id="Logic15" type="Xor" >
+        <Input id="Input14" state="true" />
+        <Input id="Input15" state="false" />
+        <Output id="Output18" connectedTo="Input17" />
+    </Logic>
+</Panel>
+<Panel id="Panel16" x="2061.0" y="1910.5" >
+    <Logic id="Logic16" type="Split" >
+        <Input id="Input16" state="false" />
+        <Output id="Output19" connectedTo="Input15" />
+        <Output id="Output20" connectedTo="Input18" />
+    </Logic>
+</Panel>
+<Panel id="Panel17" x="2252.5378012285396" y="2043.7068632855567" >
+    <Logic id="Logic17" type="Out" >
+        <Input id="Input17" state="false" />
+    </Logic>
+</Panel>
+<Panel id="Panel18" x="2150.0" y="1921.5" >
+    <Logic id="Logic18" type="And" >
+        <Input id="Input18" state="false" />
+        <Input id="Input19" state="true" />
+        <Output id="Output21" connectedTo="Input22" />
+    </Logic>
+</Panel>
+<Panel id="Panel19" x="1974.0" y="2046.5" >
+    <Logic id="Logic19" type="And" >
+        <Input id="Input20" state="false" />
+        <Input id="Input21" state="true" />
+        <Output id="Output22" connectedTo="Input23" />
+    </Logic>
+</Panel>
+<Panel id="Panel20" x="2134.0" y="2040.5" >
+    <Logic id="Logic20" type="Or" >
+        <Input id="Input22" state="false" />
+        <Input id="Input23" state="false" />
+        <Output id="Output23" connectedTo="Input26" />
+    </Logic>
+</Panel>
+<Panel id="Panel22" x="1765.5" y="2113.5" >
+    <Logic id="Logic22" type="Split" >
+        <Input id="Input25" state="false" />
+        <Output id="Output25" connectedTo="Input29" />
+        <Output id="Output26" connectedTo="Input31" />
+    </Logic>
+</Panel>
+<Panel id="Panel23" x="2048.8571428571427" y="2078.1964285714284" >
+    <Logic id="Logic23" type="Split" >
+        <Input id="Input26" state="false" />
+        <Output id="Output27" connectedTo="Input36" />
+        <Output id="Output28" connectedTo="Input33" />
+    </Logic>
+</Panel>
+<Panel id="Panel24" x="1848.6964285714284" y="2180.267857142857" >
+    <Logic id="Logic24" type="Split" >
+        <Input id="Input27" state="false" />
+        <Output id="Output29" connectedTo="Input30" />
+        <Output id="Output30" connectedTo="Input32" />
+    </Logic>
+</Panel>
+<Panel id="Panel25" x="2021.857142857143" y="2116.0714285714284" >
+    <Logic id="Logic25" type="Split" >
+        <Input id="Input28" state="false" />
+        <Output id="Output31" connectedTo="Input35" />
+        <Output id="Output32" connectedTo="Input34" />
+    </Logic>
+</Panel>
+<Panel id="Panel26" x="1675.2678571428573" y="2176.6766813671443" >
+    <Logic id="Logic26" type="In" >
+        <Output id="Output33" connectedTo="Input25" />
+    </Logic>
+</Panel>
+<Panel id="Panel27" x="1764.8214285714287" y="2181.660714285714" >
+    <Logic id="Logic27" type="In" >
+        <Output id="Output34" connectedTo="Input27" />
+    </Logic>
+</Panel>
+<Panel id="Panel29" x="1925.848214285714" y="2116.4732142857147" >
+    <Logic id="Logic29" type="Xor" >
+        <Input id="Input29" state="true" />
+        <Input id="Input30" state="true" />
+        <Output id="Output36" connectedTo="Input28" />
+    </Logic>
+</Panel>
+<Panel id="Panel30" x="1977.241071428571" y="2170.883928571429" >
+    <Logic id="Logic30" type="And" >
+        <Input id="Input31" state="true" />
+        <Input id="Input32" state="true" />
+        <Output id="Output37" connectedTo="Input38" />
+    </Logic>
+</Panel>
+<Panel id="Panel31" x="2152.3125" y="2114.6339285714284" >
+    <Logic id="Logic31" type="And" >
+        <Input id="Input33" state="false" />
+        <Input id="Input34" state="false" />
+        <Output id="Output38" connectedTo="Input37" />
+    </Logic>
+</Panel>
+<Panel id="Panel32" x="2158.919642857143" y="2159.9196428571427" >
+    <Logic id="Logic32" type="Xor" >
+        <Input id="Input35" state="false" />
+        <Input id="Input36" state="false" />
+        <Output id="Output39" connectedTo="Input39" />
+    </Logic>
+</Panel>
+<Panel id="Panel33" x="2141.151785714286" y="2196.3660714285716" >
+    <Logic id="Logic33" type="Or" >
+        <Input id="Input37" state="false" />
+        <Input id="Input38" state="true" />
+        <Output id="Output40" connectedTo="Input41" />
+    </Logic>
+</Panel>
+<Panel id="Panel34" x="2253.70640061427" y="2177.11920184281" >
+    <Logic id="Logic34" type="Out" >
+        <Input id="Input39" state="false" />
+    </Logic>
+</Panel>
+<Panel id="Panel35" x="1762.8482142857147" y="2242.294642857142" >
+    <Logic id="Logic35" type="Split" >
+        <Input id="Input40" state="false" />
+        <Output id="Output41" connectedTo="Input44" />
+        <Output id="Output42" connectedTo="Input51" />
+    </Logic>
+</Panel>
+<Panel id="Panel36" x="2041.3482142857147" y="2201.7767857142853" >
+    <Logic id="Logic36" type="Split" >
+        <Input id="Input41" state="false" />
+        <Output id="Output43" connectedTo="Input48" />
+        <Output id="Output44" connectedTo="Input42" />
+    </Logic>
+</Panel>
+<Panel id="Panel37" x="2150.7589285714284" y="2245.330357142857" >
+    <Logic id="Logic37" type="And" >
+        <Input id="Input42" state="true" />
+        <Input id="Input43" state="false" />
+        <Output id="Output45" connectedTo="Input53" />
+    </Logic>
+</Panel>
+<Panel id="Panel38" x="1672.2589285714284" y="2309.6517857142853" >
+    <Logic id="Logic38" type="In" >
+        <Output id="Output46" connectedTo="Input40" />
+    </Logic>
+</Panel>
+<Panel id="Panel39" x="1763.0089285714287" y="2310.9732142857138" >
+    <Logic id="Logic39" type="In" >
+        <Output id="Output47" connectedTo="Input50" />
+    </Logic>
+</Panel>
+<Panel id="Panel40" x="1926.2410714285716" y="2241.776785714286" >
+    <Logic id="Logic40" type="Xor" >
+        <Input id="Input44" state="false" />
+        <Input id="Input45" state="false" />
+        <Output id="Output48" connectedTo="Input46" />
+    </Logic>
+</Panel>
+<Panel id="Panel41" x="2023.1875" y="2243.383928571429" >
+    <Logic id="Logic41" type="Split" >
+        <Input id="Input46" state="false" />
+        <Output id="Output49" connectedTo="Input47" />
+        <Output id="Output50" connectedTo="Input43" />
+    </Logic>
+</Panel>
+<Panel id="Panel42" x="2156.3482142857147" y="2290.383928571428" >
+    <Logic id="Logic42" type="Xor" >
+        <Input id="Input47" state="false" />
+        <Input id="Input48" state="true" />
+        <Output id="Output51" connectedTo="Input49" />
+    </Logic>
+</Panel>
+<Panel id="Panel43" x="2249.3379173885655" y="2308.053443455662" >
+    <Logic id="Logic43" type="Out" >
+        <Input id="Input49" state="false" />
+    </Logic>
+</Panel>
+<Panel id="Panel44" x="1850.2410714285716" y="2309.8660714285716" >
+    <Logic id="Logic44" type="Split" >
+        <Input id="Input50" state="false" />
+        <Output id="Output52" connectedTo="Input45" />
+        <Output id="Output53" connectedTo="Input52" />
+    </Logic>
+</Panel>
+<Panel id="Panel45" x="1974.2767857142858" y="2297.2589285714284" >
+    <Logic id="Logic45" type="And" >
+        <Input id="Input51" state="false" />
+        <Input id="Input52" state="false" />
+        <Output id="Output54" connectedTo="Input54" />
+    </Logic>
+</Panel>
+<Panel id="Panel46" x="2139.419642857143" y="2326.901785714286" >
+    <Logic id="Logic46" type="Or" >
+        <Input id="Input53" state="false" />
+        <Input id="Input54" state="false" />
+        <Output id="Output55" connectedTo="Input55" />
+    </Logic>
+</Panel>
+<Panel id="Panel47" x="2250.2101807371237" y="2357.967091274216" >
+    <Logic id="Logic47" type="Out" >
+        <Input id="Input55" state="false" />
+    </Logic>
+</Panel>
+</Project>

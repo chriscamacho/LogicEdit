@@ -1,0 +1,64 @@
+<Project name="project1">
+<Panel id="Panel1" x="1677.0" y="1973.0" >
+    <Logic id="Logic1" type="In" >
+        <Output id="Output1" connectedTo="Input10" />
+    </Logic>
+</Panel>
+<Panel id="Panel2" x="1662.0" y="2191.0" >
+    <Logic id="Logic2" type="In" >
+        <Output id="Output2" connectedTo="Input11" />
+    </Logic>
+</Panel>
+<Panel id="Panel3" x="1852.0" y="2045.0" >
+    <Logic id="Logic3" type="Not" >
+        <Input id="Input1" state="false" />
+        <Output id="Output3" connectedTo="Input14" />
+    </Logic>
+</Panel>
+<Panel id="Panel4" x="1860.0" y="2110.0" >
+    <Logic id="Logic4" type="Not" >
+        <Input id="Input2" state="false" />
+        <Output id="Output4" connectedTo="Input13" />
+    </Logic>
+</Panel>
+<Panel id="Panel5" x="2092.0" y="2069.0" >
+    <Logic id="Logic5" type="Or" >
+        <Input id="Input3" state="false" />
+        <Input id="Input4" state="false" />
+        <Output id="Output5" connectedTo="Input9" />
+    </Logic>
+</Panel>
+<Panel id="Panel8" x="2195.0" y="2068.0" >
+    <Logic id="Logic8" type="Out" >
+        <Input id="Input9" state="false" />
+    </Logic>
+</Panel>
+<Panel id="Panel9" x="1775.0" y="1984.0" >
+    <Logic id="Logic9" type="Split" >
+        <Input id="Input10" state="false" />
+        <Output id="Output8" connectedTo="Input12" />
+        <Output id="Output9" connectedTo="Input1" />
+    </Logic>
+</Panel>
+<Panel id="Panel10" x="1749.0" y="2192.0" >
+    <Logic id="Logic10" type="Split" >
+        <Input id="Input11" state="false" />
+        <Output id="Output10" connectedTo="Input2" />
+        <Output id="Output11" connectedTo="Input15" />
+    </Logic>
+</Panel>
+<Panel id="Panel11" x="1953.0" y="2000.0" >
+    <Logic id="Logic11" type="And" >
+        <Input id="Input12" state="false" />
+        <Input id="Input13" state="true" />
+        <Output id="Output12" connectedTo="Input3" />
+    </Logic>
+</Panel>
+<Panel id="Panel12" x="1961.0" y="2149.0" >
+    <Logic id="Logic12" type="And" >
+        <Input id="Input14" state="true" />
+        <Input id="Input15" state="false" />
+        <Output id="Output13" connectedTo="Input4" />
+    </Logic>
+</Panel>
+</Project>

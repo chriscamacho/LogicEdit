@@ -1,0 +1,66 @@
+<Project name="project1">
+
+<Panel id="Panel1" x="1654.0" y="2105.0" >
+    <Logic id="Logic1" type="In" >
+        <Output id="Output1" connectedTo="Input1" />
+    </Logic>
+</Panel>
+
+<Panel id="Panel2" x="1653.0" y="2022.0" >
+    <Logic id="Logic2" type="In" >
+        <Output id="Output2" connectedTo="Input2" />
+    </Logic>
+</Panel>
+
+<Panel id="Panel3" x="1773.0" y="2107.0" >
+    <Logic id="Logic3" type="Split" >
+        <Input id="Input1" state="false" />
+        <Output id="Output3" connectedTo="Input6" />
+        <Output id="Output4" connectedTo="Input4" />
+    </Logic>
+</Panel>
+
+<Panel id="Panel4" x="1773.0" y="2021.0" >
+    <Logic id="Logic4" type="Split" >
+        <Input id="Input2" state="false" />
+        <Output id="Output5" connectedTo="Input5" />
+        <Output id="Output6" connectedTo="Input3" />
+    </Logic>
+</Panel>
+
+<Panel id="Panel5" x="1994.0" y="2114.0" >
+    <Logic id="Logic5" type="Or" >
+        <Input id="Input3" state="false" />
+        <Input id="Input4" state="false" />
+        <Output id="Output7" connectedTo="Input8" />
+    </Logic>
+</Panel>
+
+<Panel id="Panel6" x="1936.0" y="2022.0" >
+    <Logic id="Logic6" type="And" >
+        <Input id="Input5" state="false" />
+        <Input id="Input6" state="false" />
+        <Output id="Output8" connectedTo="Input7" />
+    </Logic>
+</Panel>
+
+<Panel id="Panel7" x="2062.0" y="2020.0" >
+    <Logic id="Logic7" type="Not" >
+        <Input id="Input7" state="false" />
+        <Output id="Output9" connectedTo="Input9" />
+    </Logic>
+</Panel>
+
+<Panel id="Panel8" x="2179.0" y="2117.0" >
+    <Logic id="Logic8" type="Out" >
+        <Input id="Input8" state="false" />
+    </Logic>
+</Panel>
+
+<Panel id="Panel9" x="2182.0" y="2019.0" >
+    <Logic id="Logic9" type="Out" >
+        <Input id="Input9" state="false" />
+    </Logic>
+</Panel>
+
+</Project>

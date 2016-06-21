@@ -257,6 +257,7 @@ public class Main extends Application {
 	public void onSaveAction(ActionEvent actionEvent) {
 
 		FileChooser fileChooser = new FileChooser();
+        fileChooser.setInitialDirectory(new File("./circuits"));
 		fileChooser.setTitle("Save project File");
 		fileChooser.getExtensionFilters().addAll(new FileChooser.ExtensionFilter("XML Files", "*.xml"));
 		File selectedFile = fileChooser.showSaveDialog(mainStage);
@@ -307,6 +308,7 @@ public class Main extends Application {
 	
 	public void onLoad(ActionEvent actionEvent) {
 		FileChooser fileChooser = new FileChooser();
+        fileChooser.setInitialDirectory(new File("./circuits"));
 		fileChooser.setTitle("Open project File");
 		fileChooser.getExtensionFilters().addAll(new FileChooser.ExtensionFilter("XML Files", "*.xml"));
 		File selectedFile = fileChooser.showOpenDialog(mainStage);
